@@ -1,0 +1,34 @@
+Project Title: Mall Customer Segmentation
+
+Problem Statement:
+Malls and retail businesses collect large amounts of customer data through membership cards, including details like age, gender, annual income, and spending score. However, without proper analysis, this data remains underutilized, making it difficult for businesses to understand distinct customer groups and design targeted marketing strategies.
+The objective of this project is to apply unsupervised machine learning techniques, specifically K-Means Clustering, to segment mall customers into distinct groups based on their annual income and spending score. This segmentation will help the mall's marketing team identify customer categories (e.g., high income–low spenders, low income–high spenders, target customers, etc.) and design personalized marketing campaigns, improve customer retention strategies, and optimize resource allocation for promotions.
+
+Objectives:
+Analyze customer demographic and spending data to identify patterns.
+Apply K-Means clustering to group customers into meaningful segments.
+Visualize clusters to interpret customer behavior.
+Provide actionable business insights based on segmentation results.
+
+Dataset: 
+Mall_Customers.csv (Kaggle) — contains CustomerID, Gender, Age, Annual Income (k$), Spending Score (1–100),Marital Status,Proffession,Family Size,Online Shopping Score,Loyalty Years 
+
+Work Flow:
+ Collect Dataset →
+ Import Libraries →
+ Load Data →
+ Preprocess Data →
+ Perform EDA →
+ Select Features →
+ Find Optimal K (Elbow Method) →
+ Apply K-Means → 
+ Visualize Clusters → 
+ Interpret Results → 
+ Business Recommendations →
+ Final Outcome
+
+Tools & Technologies: 
+Python, Pandas, NumPy, Matplotlib/Seaborn, Scikit-learn (K-Means)
+
+Expected Outcome: 
+A clustering model that segments mall customers into distinct groups, along with visualizations and insights that can guide targeted marketing decisions.
